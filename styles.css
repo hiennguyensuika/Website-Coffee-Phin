@@ -1,0 +1,99 @@
+body {
+    background-color: #fbc531 !important;
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  h1 {
+    font-family: Papyrus, serif;
+    padding: 0px 5px;
+    font-size: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  nav {
+    word-spacing: 10px;
+    text-align: start;
+    /* text-decoration: none; */
+    padding: 50px 60px;
+    color: #2c2c54;
+    width: 1200px;
+  }
+  
+  .Main {
+    background-color: white;
+    /* border-radius: 25px 25px 25px 25px; */
+    padding: 30px 20px;
+  }
+  .slogan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .phin-pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .image {
+    width: 33.3%;
+  }
+  
+  .image2 {
+    width: 50%;
+  }
+  
+  .Information {
+    background-color: #4b4b4b;
+    /* border-radius: 25px 25px 25px 25px; */
+    color: white;
+    padding: 20px 70px 10px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  footer {
+    /* padding: 5px 0 0 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .nav {
+      flex-direction: row;
+    }
+  
+    h1,
+    .logo,
+    .slogan,
+    .Main {
+      width: 1480px;
+    }
+    .pictures {
+      width: 1520px;
+    }
+  
+    .Information {
+      width: 1380px;
+    }
+  }
+  
+  /* @media screen and (min-width: 500px) {
+    nav {
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  } */
+  
